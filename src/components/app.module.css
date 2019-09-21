@@ -1,0 +1,146 @@
+.topnav{
+    margin-left:0px;
+    background-color:gainsboro;
+    height:100px;
+}
+.topnav a{
+    color:gray;
+    /* text-align:center; */
+    font-size:30px;
+    padding-right:20px;
+    color:green;
+}
+.topnav a:hover{
+    background-color: aqua;
+    color:orange;
+}
+.topnav a.active{
+    background-color: #4CAF50;
+    color:white;
+}
+.div h1{
+    color:blue;
+}
+/* .img{
+    width:50px;
+    height:50px;
+
+} */
+.flexbodyplain{
+    display:flex;
+    background-color:white;
+    height:50px;
+}
+.flexbody{
+    display:flex;
+    background-color:white;
+}
+.flexbody >div{
+    /* background-color: green; */
+    margin:10px;
+    padding:50px;
+    font-size:30px;
+    font-family: italic;
+}
+.flexbody button{
+    background-color:white;
+    height:60px;
+    width:200px;
+    border-radius: 20px;
+    color:blue;
+    font-size:20px;
+    margin-left:20px;
+} 
+.flexbody input{
+    /* margin-left:400px; */
+    height:50px;
+    border-radius: 20px;
+}
+.rocketbox{
+    display:flex;
+    height:100px;
+    width:1000px;
+    margin-left:100px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    padding-right:50px;
+}
+.rocketbox div{
+    text-align: center;
+    font-size:20px;
+    margin-top:30px;
+    margin-right:40px;
+}
+.rocketbox button{
+    background-color:blue;
+    height:60px;
+    width:200px;
+    border-radius: 20px;
+    color:white;
+    font-size:20px;
+   
+}
+.ul{
+    list-style-type: circle;
+    font-size: 20px;
+}
+.set{
+    margin-top:40px;
+    font-size: 20px;
+}
+.bottombox{
+    background-color: blue;
+    width:auto;
+    height:800px;
+}
+.bottomnews{
+    margin-top: 50px;
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+.flexbottom{
+    display:flex;
+    /* background-color:white; */
+}
+.flexbottom > div{
+    /* background-color: green; */
+    margin-left:60px; 
+    margin-right:10px;
+    margin-top: 30px;
+    /* padding:50px; */
+    font-size:20px;
+    font-family: italic;
+}
+.bottombox button{
+    background-color:white;
+    height:60px;
+    width:200px;
+    border-radius: 20px;
+    color:blue;
+    font-size:20px;
+    margin-left:50px;
+} 
+.bottombox input{
+    margin-left:400px;
+    height:50px;
+    border-radius: 20px;
+}
+.ending{
+    display:flex;
+}
+.ending > div{
+    /* background-color: green; */
+    margin-left:100px; 
+    margin-right:10px;
+    /* margin-top: 30px; */
+    /* padding:50px; */
+    font-size:20px;
+    font-family: italic;
+    color:white;
+}
+.ending  p{
+    color:gray;
+}
+
+
